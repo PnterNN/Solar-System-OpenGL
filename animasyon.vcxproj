@@ -133,6 +133,16 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Desktop\test\glcorearb.h" />
+    <ClInclude Include="..\..\..\Desktop\test\glext.h" />
+    <ClInclude Include="..\..\..\Desktop\test\glxext.h" />
+    <ClInclude Include="..\..\..\Desktop\test\wglext.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="animasyon.rc" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="packages\glew.v140.1.12.0\build\native\glew.v140.targets" Condition="Exists('packages\glew.v140.1.12.0\build\native\glew.v140.targets')" />
